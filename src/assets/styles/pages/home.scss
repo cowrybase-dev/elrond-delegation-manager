@@ -1,0 +1,17 @@
+.home {
+  color: #fff;
+  .login-container {
+    font-size: 0.8125rem;
+    max-width: 33.625rem;
+    background-color: #000d1a;
+
+    .btn {
+      min-width: 6.875rem;
+    }
+    .logo {
+      fill: $white;
+      height: 3.5rem;
+      width: auto;
+    }
+  }
+}
