@@ -187,7 +187,7 @@ const Views = () => {
         <StatCard
           title="Automatic activation"
           value={contractOverview.automaticActivation === 'true' ? 'ON' : 'OFF'}
-          color="purple"
+          color="orange"
           svg="activation.svg"
         >
           <AutomaticActivationAction automaticFlag={contractOverview.automaticActivation} />
@@ -197,7 +197,7 @@ const Views = () => {
         <StatCard
           title="ReDelegate Cap"
           value={contractOverview.reDelegationCap === 'true' ? 'ON' : 'OFF'}
-          color="green"
+          color="orange"
           svg="activation.svg"
           percentage="Cap for rewards"
           tooltipText="If your agency uses a max delegation cap and the ReDelegate Cap is OFF your delegators will be able to redelegate the reward to your agency. If the value is ON then the redelegate will not be accepted."
