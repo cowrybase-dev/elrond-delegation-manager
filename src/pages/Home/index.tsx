@@ -1,7 +1,7 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 import { faBan, faCircleNotch } from '@fortawesome/free-solid-svg-icons';
-import { ReactComponent as Logo } from 'assets/images/logo.svg';
+import logo from 'assets/images/logo-transparent.png';
 import State from 'components/State';
 import { useContext } from 'context';
 import WalletLogin from './Login/Wallet';
@@ -29,7 +29,7 @@ const Home = () => {
         <div className="m-auto login-container">
           <div className="card my-spacer text-center">
             <div className="card-body p-spacer mx-lg-spacer">
-              <Logo className="logo mb-spacer" />
+              <img className="logo mb-spacer" src={logo} alt='Logo' width="50" height="50" />
               <h4 className="mb-spacer">HAMAStake Delegation Manager</h4>
               <p className="lead mb-spacer">
                 Delegate Elrond ({egldLabel}) and earn up to 25% APY!

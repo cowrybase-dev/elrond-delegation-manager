@@ -38,7 +38,7 @@ const ReDelegateCapActivationAction = ({ automaticFlag }: { automaticFlag: strin
     <div>
       <button
         onClick={() => setShowReDelegationCapActivationModal(true)}
-        className="btn btn-primary text-white btn-sm mr-n1"
+        className="btn btn-primary text-black btn-sm mr-n1"
       >
         Change
       </button>

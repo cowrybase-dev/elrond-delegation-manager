@@ -20,17 +20,17 @@ body.modal-open .layout {
 
 .btn {
   &:hover:enabled {
-    background: rgba(0, 0, 0, 0.4);
+    background: gray;
   }
   border: none !important;
   box-shadow: 0 0.6rem 0.6rem 0 rgba(27, 70, 194, 0.1);
   &.btn-primary {
-    background: rgba(255, 255, 255, 0.2);
-    border: rgba(255, 255, 255, 0.3);
-    color: $white;
+    background: white;
+    border: white;
+    color: black;
     box-shadow: 0 0.6rem 0.6rem 0 rgba(27, 70, 194, 0.1);
     &:hover:enabled {
-      background: rgba(0, 0, 0, 0.2);
+      background: gray;
     }
     &:not(:disabled):not(.disabled):active,
     &:not(:disabled):not(.disabled).active {

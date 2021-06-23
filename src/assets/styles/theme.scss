@@ -1,4 +1,4 @@
-$font-family-sans-serif: 'Poppins', sans-serif;
+$font-family-sans-serif: 'Space Mono', monospace;
 $font-weight-normal: 300;
 $font-weight-bold: 500;
 $headings-font-weight: 400;
@@ -30,7 +30,8 @@ $card-bg: rgba(0, 0, 0, 0.4);
 $text-muted: $muted;
 $brand-color: $white;
 $logo-height: 1.5rem;
-$bg-image: linear-gradient(to right, #000d1a, #000d1a);
+//$bg-image: linear-gradient(to right, #000d1a, #000d1a);
+$bg-image: black;
 $footer-color: $white;
 
 $lead-font-size: 1.15rem;

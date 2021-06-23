@@ -1,7 +1,7 @@
 import Denominate from 'components/Denominate';
 import React from 'react';
-import { ReactComponent as Logo } from 'assets/images/logo.svg';
 import { useContext, useDispatch } from 'context';
+import logo from "../../../assets/images/logo-transparent.png";
 
 const Navbar = () => {
   const { loggedIn, dapp, address, account } = useContext();
@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="navbar px-4 py-3 flex-nowrap">
       <div className="container-fluid flex-nowrap">
         <div className="d-flex align-items-center mr-3">
-          <Logo className="logo mr-2 flex-shrink-0" />
+          <img className="logo mr-2 flex-shrink-0" src={logo} alt='Logo' width="20" height="20" />
           <span className="h5 text-nowrap mb-0 p-0">Delegation Manager</span>
         </div>
         {loggedIn && (

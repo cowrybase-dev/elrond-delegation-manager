@@ -29,7 +29,7 @@ const AutomaticActivationAction = ({ automaticFlag }: { automaticFlag: string })
     <div>
       <button
         onClick={() => setShowAutomaticActivationModal(true)}
-        className="btn btn-primary text-white btn-sm mr-n1"
+        className="btn btn-primary text-black btn-sm mr-n1"
       >
         Change
       </button>

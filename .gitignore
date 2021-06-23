@@ -3,6 +3,10 @@
 # IDE
 .idea/
 build
+firebase.json
+.firebaserc
+src/config.mainnet.ts
+.firebase
 
 # dependencies
 /node_modules
